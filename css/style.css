@@ -206,6 +206,75 @@ body.contact {
   text-decoration: underline;
 }
 
+/* Services page */
+body.services {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #F7FAFC;
+  color: #0F172A;
+}
+
+.services .page-header {
+  background: #1E88E5;
+  color: white;
+  padding: 50px 0 35px 0;
+}
+
+.content-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.services .intro-text {
+  max-width: 65ch;
+  margin: 0;
+  opacity: 0.95;
+}
+
+.services .service-section {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 18px 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.services h2 {
+  display: inline-block;
+  background: #FFDF00;
+  color: #0F172A;
+  border-radius: 12px;
+  padding: 6px 14px;
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.services h3 {
+  margin-top: 14px;
+  color: #1E88E5;
+}
+
+.service-list,
+.hours-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.service-list li,
+.hours-list li {
+  padding: 10px 0;
+  font-weight: 500;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.service-list li:last-child,
+.hours-list li:last-child {
+  border-bottom: none;
+}
+
+
 
 
 
