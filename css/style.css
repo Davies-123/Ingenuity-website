@@ -149,6 +149,7 @@ body.contact {
   font-family: Arial, sans-serif;
   background: #F7FAFC; 
   color: #0F172A;
+  overflow-x: hidden;
 }
 .contact .intro4 {
   background: #1E88E5;
