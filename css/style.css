@@ -274,8 +274,35 @@ body.services {
   border-bottom: none;
 }
 
+/* =========================
+   Navigation Bar (buttons)
+   ========================= */
 
+.navbar {
+  display: flex;
+  gap: 12px;
+  padding: 15px 20px;
 
+  /* important: no background */
+  background: transparent;
+}
 
+.navbar a {
+  background-color: #FFDF00; /* yellow */
+  color: black;
 
+  padding: 8px 16px;
+  border-radius: 20px;
 
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+
+  transition: background-color 0.2s ease,
+              transform 0.1s ease;
+}
+
+.navbar a:hover {
+  background-color: #F2D200; /* slightly darker yellow */
+  transform: translateY(-1px);
+}
