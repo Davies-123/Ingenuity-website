@@ -282,13 +282,14 @@ body.services {
   display: flex;
   gap: 12px;
   padding: 15px 20px;
+  justify-content: center;
 
   /* important: no background */
   background: transparent;
 }
 
 .navbar a {
-  background-color: #FFDF00; /* yellow */
+  background-color: #FFDF00;
   color: black;
 
   padding: 8px 16px;
@@ -303,6 +304,6 @@ body.services {
 }
 
 .navbar a:hover {
-  background-color: #F2D200; /* slightly darker yellow */
+  background-color: #F2D200;
   transform: translateY(-1px);
 }
