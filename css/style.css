@@ -308,3 +308,24 @@ body.services {
   background-color: #F2D200;
   transform: translateY(-1px);
 }
+
+/*lets help mobile users*/
+@media (max-width: 600px) {
+  .intro {
+    padding: 0 14px;
+  }
+
+  .contact .contact-us {
+    padding: 16px;
+  }
+
+  .navbar {
+    gap: 10px;
+    padding: 12px 14px;
+  }
+
+  .navbar a {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+}
